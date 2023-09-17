@@ -1567,6 +1567,7 @@
     )
   )
 
+
   (junction (at 43.18 142.24) (diameter 0) (color 0 0 0 0)
     (uuid 0281dcfe-5723-4320-b622-fb9f4dc228e8)
   )
@@ -3534,7 +3535,7 @@
   )
 
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 287.02 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 2780334e-434c-4625-a2b1-11d893f09542)
     (property "Reference" "J4" (at 287.02 25.4 0)
       (effects (font (size 1.27 1.27)))
@@ -3546,6 +3547,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 288.29 34.036 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 287.02 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 834ab75d-ca0b-4b5c-b2d3-eb60f5489917))
